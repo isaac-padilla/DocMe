@@ -1,0 +1,126 @@
+.btn-add-container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.btn-add{
+    background-color: aliceblue;
+    color: #0f5268;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    border-style: none;
+    transition: .3s ease-in-out;
+}
+
+
+.btn-add:hover{
+    background-color: #ffff;
+}
+
+.btn-edit{
+    width: 45px;
+    height: 35px;
+    transition: .2s ease-in-out;
+    padding: 0;
+}
+
+.btn-edit i{
+    font-size: 20px;
+    color: #0f5268;
+    transition: .2s ease-in-out;
+}
+
+.btn-edit:hover, .btn-edit i:hover{
+    color: aliceblue;
+    background-color: #164757;
+}
+
+
+.container-fluid{
+    overflow-x: auto;
+}
+
+.container-fluid::-webkit-scrollbar{
+    width: 2px;
+}
+
+.container-fluid::-webkit-scrollbar-thumb{
+    background: aliceblue;
+    border-radius: 10px;
+    width: 2px;
+}
+
+table{
+    background-color: white;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+
+.datatable-container{
+    border-bottom: none !important;
+}
+
+th a{
+    text-align: center;
+}
+
+td{
+    text-align: center;
+}
+
+th, td{
+    padding: 10px;
+    color: #0f5268;
+    border-radius: 10px;
+}
+
+thead{
+    background-color: aliceblue;
+    color: #0f5268;
+}
+
+.dataTable-sorter::after, .dataTable-sorter::before {
+    display: none !important;
+}
+
+.dataTable-input{
+    background-color: aliceblue;
+    border-style: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    padding: 6;
+    
+}
+
+.dataTable-top{
+    color: aliceblue;
+}
+
+.dataTable-selector{
+    color: aliceblue;
+    background-color: #164757;
+    border-style: none;
+}
+
+.dataTable-bottom{
+    color: aliceblue;
+}
+
+.dataTable-pagination{
+    background-color: aliceblue;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.dataTable-pagination a{
+    color: #164757;
+    border-radius: 5px;
+}
+
+.modal-backdrop.fade {
+    width: 0% !important;
+    height: 0% !important;
+}
